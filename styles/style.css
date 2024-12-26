@@ -1,0 +1,151 @@
+html {
+  color:#100c14;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers - don't include RESET.css in the projects (exept codepen(?)), use NORMALIZE.css only*/
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*Edit here*/
+@import url(https://fonts.googleapis.com/css?family=Raleway:500);
+
+  body {
+  background-color: #100c14;
+  font-family: 'Roboto', serif;
+  margin: 5% 20% 5% 20%;
+}
+p, ul {
+	font-family: 'Raleway', sans-serif;
+}
+
+
+.container {
+	margin-bottom: 25px;
+}
+
+.info-details{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title-name {
+    color: #75489f;
+    display: inline-block;
+    font-size: 35px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-bottom: 1%;
+}
+
+
+.contact-info, .links-container {
+    color: #eeeaf2;
+    font-size: 16px;
+    letter-spacing: 1.2px;
+}
+
+.contact-info {
+    padding-bottom: 5%;
+    padding-top: none;
+}
+
+.links {
+    text-decoration: none;
+    color: inherit;
+    color: #51346c;
+    display: inline-block;
+}
+
+.links:hover {
+    color: #8b5cb8;
+  }
+
+.primary-titles {
+  color: #8b5cb8;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  padding-top: 0px;
+}
+
+.category-titles {
+  color: #b49bcb;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.location {
+  color: #51346c;
+  display: inline-block;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+
+.category-details {
+  color: #cbc8cf;
+  font-size: 13px;
+  line-height: 20px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.category-description-main {
+  color: #cbc8cf;
+  font-size: 13px;
+  line-height: 25px;
+  padding-top: 10px;
+  text-align: justify;
+}
+
+.category-description {
+  color: #cbc8cf;
+  font-size: 13px;
+  line-height: 25px;
+  padding-top: 10px;
+	padding-bottom: 10px;
+  text-align: justify;
+}
+
+li {
+  list-style: square ;
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+hr {
+  border: 1px dotted #A7A9AB;
+  border-style: none none solid; 
+  margin: 1 0 0 0;
+}
